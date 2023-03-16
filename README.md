@@ -1,5 +1,7 @@
 # RiotDNS
 RiotDNS - Change Your Windows DNS Easily , Find , Choose and Set , We're Ready!
+<br>
+Will Be Open Source Under MIT Noncommercial License Very Soon :)
 # Changelog
 v1.0.0.0 : 
 Official release!
