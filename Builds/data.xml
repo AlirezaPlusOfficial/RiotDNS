@@ -3,4 +3,5 @@
   <version>1.0.0.1</version>
   <url>https://github.com/AlirezaPlusOfficial/RiotDNS/blob/main/Builds/RiotDNS_v1.0.0.1r.zip</url>
   <message>A new version of RiotDNS is now available. Please update the software!</message>
+  <auto>true</auto>
 </update>
