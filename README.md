@@ -13,5 +13,9 @@ Added self-updater
 Application : Every time it goes for a ping, the app may lag
 # ToDo List
 Improving UI
+<br>
 Adding More Servers
+<br>
 Adding Custom Section To Add Your Custom DNS Servers
+<br>
+And So Much More :)
