@@ -48,4 +48,4 @@ v2.0.2.0 :
 💢 And So Much More :)
 ## Screenshots
 
-![RiotDNS](ScreenShots/SS1.png)
+![RiotDNS](Screenshots/SS1.png)
