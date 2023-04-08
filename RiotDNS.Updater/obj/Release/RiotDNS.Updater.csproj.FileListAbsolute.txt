@@ -1,0 +1,14 @@
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\bin\Release\RiotDNS.Updater.exe.config
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\bin\Release\RiotDNS.Updater.exe
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\bin\Release\RiotDNS.Updater.pdb
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\bin\Release\AlirezaPlus.dll
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\bin\Release\AlirezaPlus.pdb
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.csproj.AssemblyReference.cache
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.csproj.SuggestedBindingRedirects.cache
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.RiotDNSUpdater.resources
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.Properties.Resources.resources
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.csproj.GenerateResource.cache
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.csproj.CoreCompileInputs.cache
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.csproj.CopyComplete
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.exe
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS.Updater\obj\Release\RiotDNS.Updater.pdb
