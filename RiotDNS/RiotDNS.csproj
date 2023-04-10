@@ -43,6 +43,7 @@
   <ItemGroup>
     <Reference Include="AlirezaPlus">
       <HintPath>..\..\AlirezaPlus\AlirezaPlus\bin\Release\AlirezaPlus.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -76,7 +77,6 @@
     <Compile Include="Core\AutoUpdater.cs" />
     <Compile Include="Core\Controller.cs" />
     <Compile Include="Core\DNSService.cs" />
-    <Compile Include="Core\RiotDNSHttpClient.cs" />
     <Compile Include="Core\Settings.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -133,6 +133,9 @@
       <Project>{4a33f3c2-cbc7-42f9-b214-fae91e9488c9}</Project>
       <Name>RiotDNS.Updater</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Assets\RiotDNS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

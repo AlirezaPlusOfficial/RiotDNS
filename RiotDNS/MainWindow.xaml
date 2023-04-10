@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RiotDNS"
         mc:Ignorable="d"
-        Title="MainWindow"
+        Title="RiotDNS"
         Height="500"
         Width="350"
         WindowStartupLocation="CenterScreen"
@@ -49,7 +49,7 @@
 
             <TextBlock x:Name="tagLbl" Text="CHOOSE   SET   WE'RE READY"
                        Foreground="#2A2C2D"
-                       FontSize="12"
+                       FontSize="11"
                        FontFamily="Fonts/#Kanit Medium"
                        HorizontalAlignment="Center"
                        VerticalAlignment="Center" />

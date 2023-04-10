@@ -69,6 +69,12 @@ namespace RiotDNS
                             }
                             controller.LogWrite("CLIENT HAVE LATEST VERSION : v" + currentVersion);
                         }
+                        if (!File.Exists(applicationPath + "\\" + "AlirezaPlus.dll"))
+                        {
+                            controller.LogWrite("NECESSARY COMPONENT NOT FOUND : " + "AlirezaPlus.dll" + " | EXECUTING UPDATER");
+                            Process.Start(applicationPath + "\\" + applicationName + ".Updater.exe");
+                            System.Windows.Application.Current.Shutdown();
+                        }
                     }
                 }
             }

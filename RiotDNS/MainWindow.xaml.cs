@@ -115,38 +115,47 @@ namespace RiotDNS
                 if (dnsCombo.SelectedIndex == 0)
                 {
                     SetMyDNS = DNS.SetDNS("Radar Game");
+                    SetMyDNS += " " + controller.GetServerPing("Radar Game");
                 }
                 else if (dnsCombo.SelectedIndex == 1)
                 {
                     SetMyDNS = DNS.SetDNS("Electro");
+                    SetMyDNS += " " + controller.GetServerPing("Electro");
                 }
                 else if (dnsCombo.SelectedIndex == 2)
                 {
                     SetMyDNS = DNS.SetDNS("Shecan");
+                    SetMyDNS += " " + controller.GetServerPing("Shecan");
                 }
                 else if (dnsCombo.SelectedIndex == 3)
                 {
                     SetMyDNS = DNS.SetDNS("Begzar");
+                    SetMyDNS += " " + controller.GetServerPing("Begzar");
                 }
                 else if (dnsCombo.SelectedIndex == 4)
                 {
                     SetMyDNS = DNS.SetDNS("Anti 403");
+                    SetMyDNS += " " + controller.GetServerPing("Anti 403");
                 }
                 else if (dnsCombo.SelectedIndex == 5)
                 {
                     SetMyDNS = DNS.SetDNS("OpenDNS");
+                    SetMyDNS += " " + controller.GetServerPing("OpenDNS");
                 }
                 else if (dnsCombo.SelectedIndex == 6)
                 {
                     SetMyDNS = DNS.SetDNS("CloudFlare");
+                    SetMyDNS += " " + controller.GetServerPing("CloudFlare");
                 }
                 else if (dnsCombo.SelectedIndex == 7)
                 {
                     SetMyDNS = DNS.SetDNS("Google");
+                    SetMyDNS += " " + controller.GetServerPing("Google");
                 }
                 else if (dnsCombo.SelectedIndex == 8)
                 {
                     SetMyDNS = DNS.SetDNS("Quad 9");
+                    SetMyDNS += " " + controller.GetServerPing("Quad 9");
                 }
                 tagLbl.Text = SetMyDNS;
             } 

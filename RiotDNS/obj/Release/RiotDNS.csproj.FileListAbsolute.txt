@@ -1,11 +1,9 @@
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\RiotDNS.exe.config
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\RiotDNS.exe
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\RiotDNS.pdb
-C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\AlirezaPlus.dll
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\RiotDNS.Updater.exe
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\RiotDNS.Updater.pdb
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\RiotDNS.Updater.exe.config
-C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\AlirezaPlus.pdb
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\RiotDNS.csproj.AssemblyReference.cache
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\RiotDNS.csproj.SuggestedBindingRedirects.cache
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\MainWindow.g.cs
@@ -21,3 +19,5 @@ C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\RiotDNS.csproj.CoreCom
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\RiotDNS.csproj.CopyComplete
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\RiotDNS.exe
 C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\obj\Release\RiotDNS.pdb
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\AlirezaPlus.dll
+C:\Users\Alireza\source\repos\RiotDNS\RiotDNS\bin\Release\AlirezaPlus.pdb
