@@ -74,7 +74,7 @@ namespace RiotDNS {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            SplashScreen splashScreen = new SplashScreen("assets/riotdns.png");
+            SplashScreen splashScreen = new SplashScreen("assets/riotdnssplash.png");
             splashScreen.Show(true);
             RiotDNS.App app = new RiotDNS.App();
             app.InitializeComponent();

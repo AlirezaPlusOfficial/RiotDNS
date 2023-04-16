@@ -46,7 +46,8 @@ v2.0.2.0 : <br>
 <br>
 ✅ DNS Clear And Set Action Bug Fixed
 <br><br>
-v2.0.2.1 : (THIS UPDATE IS NOT RELEASED YET - AVAILABLE TO EARLY ACCESS USERS) <br>
+v2.0.2.1 :
+<br>
 ✅ Added Simple Splash Screen
 <br>
 ✅ Fixed Minor Bugs
@@ -56,6 +57,10 @@ v2.0.2.1 : (THIS UPDATE IS NOT RELEASED YET - AVAILABLE TO EARLY ACCESS USERS) <
 ✅ From Now On When You Start DNS It Will Show Ping
 <br>
 ✅ New Servers Added
+<br><br>
+v2.0.2.2 :
+<br>
+✅ Adjusment For Splash Screen And Icons
 # Known Issue's
 ⚠ Application Core : There may be a delay when you try to start a DNS that does not have a ping.
 # ToDo List

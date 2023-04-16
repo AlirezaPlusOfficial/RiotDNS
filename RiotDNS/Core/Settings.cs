@@ -11,7 +11,7 @@ namespace RiotDNS
     public class Settings
     {
         public bool devMode = false;
-        public readonly string[] dnsServers = { "Radar Game {?}", "Electro {?}", "Shecan {?}", "Begzar {?}", "Anti 403 {?}", "OpenDNS {?}", "CloudFlare {?}", "Google {?}", "Quad9 {?}" };
+        public readonly string[] dnsServers = { "Radar Game", "Electro", "Shecan", "Begzar", "Anti 403", "OpenDNS", "CloudFlare", "Google", "Quad9" };
         public readonly string[] radarAdr = { "10.202.10.10", "10.202.10.11" };
         public readonly string[] electroAdr = { "78.157.42.100", "78.157.42.101" };
         public readonly string[] shecanAdr = { "178.22.122.100", "185.51.200.2" };

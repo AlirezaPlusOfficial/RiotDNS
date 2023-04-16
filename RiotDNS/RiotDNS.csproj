@@ -126,16 +126,16 @@
     <Resource Include="Assets\wifi_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="RiotDNS.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\RiotDNS.Updater\RiotDNS.Updater.csproj">
       <Project>{4a33f3c2-cbc7-42f9-b214-fae91e9488c9}</Project>
       <Name>RiotDNS.Updater</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <SplashScreen Include="Assets\RiotDNS.png" />
+    <Resource Include="RiotDNS.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <SplashScreen Include="Assets\RiotDNSSplash.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
