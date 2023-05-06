@@ -68,7 +68,10 @@ v2.0.2.2 :
 💢 Adding Custom Section To Add Your Custom DNS Servers
 <br>
 💢 And So Much More :)
-# Screenshots
+# Builds And Download
 ![RiotDNS](Screenshots/SS1.png)
 <br>
 NOTE : ScreenShot Is Related To Version ( 2.0.0.0 )
+| Operation System | Download Link                                                                      |
+| ------------ | -------------------------------------------------------------------------------------- |
+| Windows       | <a href="https://github.com/AlirezaPlusOfficial/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> |
