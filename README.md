@@ -11,7 +11,7 @@ RiotDNS - Change Your Windows DNS Easily , Find , Choose and Set , We're Ready!
 <br>
 | Operation System | Download Link                                                                      |
 | ------------ | -------------------------------------------------------------------------------------- |
-| Windows       | ``` <a href="https://github.com/AlirezaPlusOfficial/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> ``` |
+| Windows       | <a href="https://github.com/AlirezaPlusOfficial/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> |
 <br>
 Open Source Under MIT Noncommercial License.
 # IMPORTANT
