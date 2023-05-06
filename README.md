@@ -11,7 +11,7 @@ RiotDNS - Change Your Windows DNS Easily , Find , Choose and Set , We're Ready!
 <br>
 
 Open Source Under MIT Noncommercial License.
-## IMPORTANT
+# IMPORTANT
 🔰 My NEW PROJECTS IS COMING UP ON MY GITHUB AND SO LETS TALK ABOUT CURRENT PROJECT , RiotDNS , it doesn't mean that I don't support this project anymore, it gets its own updates, but slowly! I will start the MongoDB project soon too.
 <br>
 🔰 I added a dynamic link library File to RiotDNS Project and I already added that in Requirements folder , So dont forget to link that as needed refrence.
@@ -21,7 +21,7 @@ Open Source Under MIT Noncommercial License.
 🔰 Congrats , The Stable Version 2 Is Ready!
 <br>
 🔰 GoodLuck 
-### Changelog
+# Changelog
 v1.0.0.0 : <br>
 ✅ Official Release (Basic Version)!
 <br><br>
@@ -62,13 +62,13 @@ v2.0.2.1 :
 v2.0.2.2 :
 <br>
 ✅ Adjusment For Splash Screen And Icons
-#### Known Issue's
+# Known Issue's
 ⚠ Application Core : There may be a delay when you try to start a DNS that does not have a ping.
-##### ToDo List
+# ToDo List
 💢 Adding Custom Section To Add Your Custom DNS Servers
 <br>
 💢 And So Much More :)
-###### Screenshots
+# Screenshots
 ![RiotDNS](Screenshots/SS1.png)
 <br>
 NOTE : ScreenShot Is Related To Version ( 2.0.0.0 )
