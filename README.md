@@ -63,6 +63,7 @@ v2.0.2.2 :
 <br>
 ✅ Adjusment For Splash Screen And Icons
 # Known Issue's
+⚠ Application Core : When you have multiple active adapters may app not work correctly.
 ⚠ Application Core : There may be a delay when you try to start a DNS that does not have a ping.
 # ToDo List
 💢 Adding Custom Section To Add Your Custom DNS Servers
