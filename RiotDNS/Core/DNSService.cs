@@ -65,6 +65,11 @@ namespace RiotDNS
                             objdns["DNSServerSearchOrder"] = settings.quad9Adr;
                             mo.InvokeMethod("SetDNSServerSearchOrder", objdns, null);
                         }
+                        else if (DnsName == "KeepSolid")
+                        {
+                            objdns["DNSServerSearchOrder"] = settings.keepsolidAdr;
+                            mo.InvokeMethod("SetDNSServerSearchOrder", objdns, null);
+                        }
 
                     }
                 }

@@ -2,6 +2,7 @@
 using System.IO;
 using System.Reflection;
 using System.Net.NetworkInformation;
+using System.Threading.Tasks;
 
 namespace RiotDNS
 {
@@ -49,10 +50,10 @@ namespace RiotDNS
 
 
 
-
-
         // PING SYSTEM REBUILT | STILL I HAVE SOME ISSUE WITH THIS BUT IT'S BETTER BY NOW
-        public string GetServerPing(string DnsName)
+
+
+        public async Task<string> GetServerPing(string DnsName)
         {
             int CurrentPing = 0;
             Ping pingSender = new Ping();
@@ -62,47 +63,52 @@ namespace RiotDNS
 
             if (DnsName == "Radar Game")
             {
-                PingReply reply = pingSender.Send(settings.radarAdr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.radarAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             } 
             else if (DnsName == "Electro")
             {
-                PingReply reply = pingSender.Send(settings.electroAdr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.electroAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "Shecan")
             {
-                PingReply reply = pingSender.Send(settings.shecanAdr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.shecanAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "Begzar")
             {
-                PingReply reply = pingSender.Send(settings.begzarAdr[0]); // begzarAdr[0] Server Reach Timeout Everytime (SEEMS NOT RESPONSE ANYWAY)
+                PingReply reply = await pingSender.SendPingAsync(settings.begzarAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "Anti 403")
             {
-                PingReply reply = pingSender.Send(settings.anti403Adr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.anti403Adr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "OpenDNS")
             {
-                PingReply reply = pingSender.Send(settings.opendnsAdr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.opendnsAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "CloudFlare")
             {
-                PingReply reply = pingSender.Send(settings.cloudflareAdr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.cloudflareAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "Google")
             {
-                PingReply reply = pingSender.Send(settings.googleAdr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.googleAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
             else if (DnsName == "Quad 9")
             {
-                PingReply reply = pingSender.Send(settings.quad9Adr[0]);
+                PingReply reply = await pingSender.SendPingAsync(settings.quad9Adr[0]);
+                CurrentPing += (int)reply.RoundtripTime;
+            }
+            else if (DnsName == "KeepSolid")
+            {
+                PingReply reply = await pingSender.SendPingAsync(settings.keepsolidAdr[0]);
                 CurrentPing += (int)reply.RoundtripTime;
             }
 

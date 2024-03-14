@@ -108,54 +108,69 @@ namespace RiotDNS
 
         }
 
-        private void Tg_btn_Checked(object sender, RoutedEventArgs e)
+        private async void Tg_btn_Checked(object sender, RoutedEventArgs e)
         {
             if ((bool) Tg_btn.IsChecked)
             {
                 if (dnsCombo.SelectedIndex == 0)
                 {
                     SetMyDNS = DNS.SetDNS("Radar Game");
-                    SetMyDNS += " " + controller.GetServerPing("Radar Game");
+                    tagLbl.Text = "CONNECTING To Radar Game";
+                    SetMyDNS += " " + await controller.GetServerPing("Radar Game");
                 }
                 else if (dnsCombo.SelectedIndex == 1)
                 {
                     SetMyDNS = DNS.SetDNS("Electro");
-                    SetMyDNS += " " + controller.GetServerPing("Electro");
+                    tagLbl.Text = "CONNECTING To Electro";
+                    SetMyDNS += " " + await controller.GetServerPing("Electro");
                 }
                 else if (dnsCombo.SelectedIndex == 2)
                 {
                     SetMyDNS = DNS.SetDNS("Shecan");
-                    SetMyDNS += " " + controller.GetServerPing("Shecan");
+                    tagLbl.Text = "CONNECTING To Shecan";
+                    SetMyDNS += " " + await controller.GetServerPing("Shecan");
                 }
                 else if (dnsCombo.SelectedIndex == 3)
                 {
                     SetMyDNS = DNS.SetDNS("Begzar");
-                    SetMyDNS += " " + controller.GetServerPing("Begzar");
+                    tagLbl.Text = "CONNECTING To Begzar";
+                    SetMyDNS += " " + await controller.GetServerPing("Begzar");
                 }
                 else if (dnsCombo.SelectedIndex == 4)
                 {
                     SetMyDNS = DNS.SetDNS("Anti 403");
-                    SetMyDNS += " " + controller.GetServerPing("Anti 403");
+                    tagLbl.Text = "CONNECTING To Anti 403";
+                    SetMyDNS += " " + await controller.GetServerPing("Anti 403");
                 }
                 else if (dnsCombo.SelectedIndex == 5)
                 {
                     SetMyDNS = DNS.SetDNS("OpenDNS");
-                    SetMyDNS += " " + controller.GetServerPing("OpenDNS");
+                    tagLbl.Text = "CONNECTING To OpenDNS";
+                    SetMyDNS += " " + await controller.GetServerPing("OpenDNS");
                 }
                 else if (dnsCombo.SelectedIndex == 6)
                 {
                     SetMyDNS = DNS.SetDNS("CloudFlare");
-                    SetMyDNS += " " + controller.GetServerPing("CloudFlare");
+                    tagLbl.Text = "CONNECTING To CloudFlare";
+                    SetMyDNS += " " + await controller.GetServerPing("CloudFlare");
                 }
                 else if (dnsCombo.SelectedIndex == 7)
                 {
                     SetMyDNS = DNS.SetDNS("Google");
-                    SetMyDNS += " " + controller.GetServerPing("Google");
+                    tagLbl.Text = "CONNECTING To Google";
+                    SetMyDNS += " " + await controller.GetServerPing("Google");
                 }
                 else if (dnsCombo.SelectedIndex == 8)
                 {
                     SetMyDNS = DNS.SetDNS("Quad 9");
-                    SetMyDNS += " " + controller.GetServerPing("Quad 9");
+                    tagLbl.Text = "CONNECTING To Quad 9";
+                    SetMyDNS += " " + await controller.GetServerPing("Quad 9");
+                }
+                else if (dnsCombo.SelectedIndex == 9)
+                {
+                    SetMyDNS = DNS.SetDNS("KeepSolid");
+                    tagLbl.Text = "CONNECTING To KeepSolid";
+                    SetMyDNS += " " + await controller.GetServerPing("KeepSolid");
                 }
                 tagLbl.Text = SetMyDNS;
             } 

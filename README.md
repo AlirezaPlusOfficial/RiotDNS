@@ -9,6 +9,7 @@
 # RiotDNS
 RiotDNS - Change Your Windows DNS Easily , Find , Choose and Set , We're Ready!
 <br>
+
 Open Source Under MIT Noncommercial License.
 # IMPORTANT
 🔰 My NEW PROJECTS IS COMING UP ON MY GITHUB AND SO LETS TALK ABOUT CURRENT PROJECT , RiotDNS , it doesn't mean that I don't support this project anymore, it gets its own updates, but slowly! I will start the MongoDB project soon too.
@@ -61,13 +62,20 @@ v2.0.2.1 :
 v2.0.2.2 :
 <br>
 ✅ Adjusment For Splash Screen And Icons
+<br><br>
+v2.0.2.3 :
+<br>
+✅ Freezing Application When Trying To Active A DNS Got Fixed
 # Known Issue's
-⚠ Application Core : There may be a delay when you try to start a DNS that does not have a ping.
+⚠ Application Core : When you have multiple active adapters may app not work correctly.
 # ToDo List
 💢 Adding Custom Section To Add Your Custom DNS Servers
 <br>
 💢 And So Much More :)
-## Screenshots
+# Builds And Download
 ![RiotDNS](Screenshots/SS1.png)
 <br>
 NOTE : ScreenShot Is Related To Version ( 2.0.0.0 )
+| Operation System | Download Link                                                                      |
+| ------------ | -------------------------------------------------------------------------------------- |
+| Windows       | <a href="https://github.com/AlirezaPlusOfficial/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> |
