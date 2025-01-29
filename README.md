@@ -12,13 +12,7 @@ RiotDNS - Change Your Windows DNS Easily , Find , Choose and Set , We're Ready!
 
 Open Source Under MIT Noncommercial License.
 # IMPORTANT
-🔰 My NEW PROJECTS IS COMING UP ON MY GITHUB AND SO LETS TALK ABOUT CURRENT PROJECT , RiotDNS , it doesn't mean that I don't support this project anymore, it gets its own updates, but slowly! I will start the MongoDB project soon too.
-<br>
-🔰 I added a dynamic link library File to RiotDNS Project and I already added that in Requirements folder , So dont forget to link that as needed refrence.
-<br>
-🔰 From now on, program updates will be downloaded and updated completely automatically without user confirmation.
-<br>
-🔰 Congrats , The Stable Version 2 Is Ready!
+🔰 This project will get its own updates, but slowly, However, feel free to contribute!
 <br>
 🔰 GoodLuck 
 # Changelog
