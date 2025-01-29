@@ -68,6 +68,12 @@ v2.0.2.3 :
 ✅ Added New DNS Server
 <br>
 ✅ Freezing Application When Trying To Active A DNS Got Fixed
+<br><br>
+v2.0.2.4 :
+<br>
+✅ Crash Log Included
+<br>
+✅ Freezing Application When Trying To Active A DNS Got Fixed
 # Known Issue's
 ⚠ Application Core : When you have multiple active adapters may app not work correctly.
 # ToDo List
