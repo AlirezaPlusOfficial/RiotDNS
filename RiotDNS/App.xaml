@@ -21,7 +21,7 @@
 
                             <Grid>
 
-                                <Image Source="Assets/wifi_icon.png"
+                                <Image Source="Assets/dns_icon.png"
                                        Stretch="None" />
 
                             </Grid>

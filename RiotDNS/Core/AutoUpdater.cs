@@ -6,6 +6,9 @@ using System.Xml;
 using System.Text;
 using System.Diagnostics;
 using System.Reflection;
+using RiotDNS.Properties;
+using System.Windows.Controls;
+using System.Runtime;
 
 namespace RiotDNS
 {
@@ -14,7 +17,7 @@ namespace RiotDNS
     {
         Controller controller = new Controller();
         Settings Setting = new Settings();
-
+        private TextBlock tagLbl;
         private string updateXmlUrl;
         private string applicationPath;
         private string applicationName;
@@ -23,14 +26,14 @@ namespace RiotDNS
         private string updateUrl;
         private byte[] updateBytes;
         private string updateXml;
-        public AutoUpdater()
+        public AutoUpdater(TextBlock tagLbl)
         {
             updateXmlUrl = "https://raw.githubusercontent.com/AlirezaPlusOfficial/RiotDNS/master/Builds/data.xml";
             applicationPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             applicationName = "RiotDNS";
             currentVersion = new Version(Setting.GetRDVersion());
+            this.tagLbl = tagLbl;
         }
-
         public void DoUpdate()
         {
             try
@@ -54,20 +57,30 @@ namespace RiotDNS
                             XmlDocument xmlDoc = new XmlDocument();
                             xmlDoc.LoadXml(updateXml);
                             updateUrl = xmlDoc.SelectSingleNode("//url").InnerText;
-
+                            controller.LogWrite("CLIENT USING OLD VERSION : v" + currentVersion);
                             controller.LogWrite("NEW VERSION DETECTED v" + newVersion);
-
+                            Setting.buildType = "Old";
                             Process.Start(applicationPath + "\\" + applicationName + ".Updater.exe");
                             System.Windows.Application.Current.Shutdown();
 
                         } 
+                        else if (newVersion < currentVersion)
+                        {
+                            if (File.Exists(applicationPath + "\\" + "RiotDNS" + "-TempUpdate.zip"))
+                            {
+                                File.Delete(applicationPath + "\\" + "RiotDNS" + "-TempUpdate.zip");
+                            }
+                            controller.LogWrite("CLIENT USING EARLY ACCESS VERSION : v" + currentVersion);
+                            Setting.buildType = "Early Access";
+                        }
                         else
                         {
                             if (File.Exists(applicationPath + "\\" + "RiotDNS" + "-TempUpdate.zip"))
                             {
                                 File.Delete(applicationPath + "\\" + "RiotDNS" + "-TempUpdate.zip");
                             }
-                            controller.LogWrite("CLIENT HAVE LATEST VERSION : v" + currentVersion);
+                            controller.LogWrite("CLIENT USING LATEST VERSION : v" + currentVersion);
+                            Setting.buildType = "Release";
                         }
                         if (!File.Exists(applicationPath + "\\" + "AlirezaPlus.dll"))
                         {
@@ -75,6 +88,7 @@ namespace RiotDNS
                             Process.Start(applicationPath + "\\" + applicationName + ".Updater.exe");
                             System.Windows.Application.Current.Shutdown();
                         }
+                        tagLbl.Text = Setting.buildType + " " + "v" + Setting.GetRDVersion();
                     }
                 }
             }

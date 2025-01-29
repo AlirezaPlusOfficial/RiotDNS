@@ -11,6 +11,7 @@ namespace RiotDNS
     public class Settings
     {
         public bool devMode = false;
+        public string buildType = "N/A";
         public readonly string[] dnsServers = { "Radar Game", "Electro", "Shecan", "Begzar", "Anti 403", "OpenDNS", "CloudFlare", "Google", "Quad9", "KeepSolid" };
         public readonly string[] radarAdr = { "10.202.10.10", "10.202.10.11" };
         public readonly string[] electroAdr = { "78.157.42.100", "78.157.42.101" };
@@ -42,6 +43,21 @@ namespace RiotDNS
             appVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
             return appVersion;
         }
-        
+
+        public void UpdateBuildType(Version currentVersion, Version newVersion)
+        {
+            if (newVersion > currentVersion)
+            {
+                buildType = "Old";
+            }
+            else if (newVersion < currentVersion)
+            {
+                buildType = "Early Access";
+            }
+            else
+            {
+                buildType = "Release";
+            }
+        }
     }
 }

@@ -17,6 +17,8 @@ using System.Reflection;
 using System.Security.Principal;
 using System.Management;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
+
 
 
 
@@ -36,8 +38,31 @@ namespace RiotDNS
         {
             InitializeComponent();
 
+            AppDomain.CurrentDomain.UnhandledException += (sender, e) =>
+            {
+                if (e.ExceptionObject is Exception ex)
+                {
+                    controller.LogWrite($"Unhandled Exception: {ex.Message}\n{ex.StackTrace}");
+                }
+                else
+                {
+                    controller.LogWrite($"Unhandled Exception: {e.ExceptionObject}");
+                }
+            };
 
-            
+            TaskScheduler.UnobservedTaskException += (sender, e) =>
+            {
+                foreach (var ex in e.Exception.InnerExceptions)
+                {
+                    controller.LogWrite($"Task Exception: {ex.Message}\n{ex.StackTrace}");
+                }
+
+                e.SetObserved();
+            };
+
+            controller.LogWrite("GLOBAL EXCEPTION HANDLERS INITIALIZIED.");
+
+
 
 
             try
@@ -60,16 +85,13 @@ namespace RiotDNS
             }
 
 
-
-            tagLbl.Text = settings.GetRDVersion();
-
             try
             {
 
                 if (settings.devMode != true)
                 {
                     controller.LogWrite("THE UPDATER WAS CALLED");
-                    AutoUpdater updater = new AutoUpdater();
+                    AutoUpdater updater = new AutoUpdater(tagLbl);
                     updater.DoUpdate();
                 }
                 else
@@ -86,8 +108,9 @@ namespace RiotDNS
                 Close();
             }
 
+            //tagLbl.Text = settings.buildType + " " + "v" + settings.GetRDVersion();
 
-            
+
             foreach (string item in settings.dnsServers)
             {
                 dnsCombo.Items.Add(item);
@@ -98,8 +121,9 @@ namespace RiotDNS
 
         }
 
-
-
+        
+        
+        
 
         private void Close_App_Click(object sender, RoutedEventArgs e)
         {
@@ -112,6 +136,7 @@ namespace RiotDNS
         {
             if ((bool) Tg_btn.IsChecked)
             {
+                dnsCombo.IsEnabled = !dnsCombo.IsEnabled;
                 if (dnsCombo.SelectedIndex == 0)
                 {
                     SetMyDNS = DNS.SetDNS("Radar Game");
@@ -176,10 +201,12 @@ namespace RiotDNS
             } 
             else
             {
+                dnsCombo.IsEnabled = !dnsCombo.IsEnabled;
                 DNS.ClearDNS();
                 tagLbl.Text = "DISCONNECTED";
             }
             controller.LogWrite("MAIN BUTTON TOGGLED!");
         }
+
     }
 }

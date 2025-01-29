@@ -1,4 +1,5 @@
 ﻿using System.Management;
+using System.Windows.Controls;
 
 namespace RiotDNS
 {
@@ -70,7 +71,6 @@ namespace RiotDNS
                             objdns["DNSServerSearchOrder"] = settings.keepsolidAdr;
                             mo.InvokeMethod("SetDNSServerSearchOrder", objdns, null);
                         }
-
                     }
                 }
             }
@@ -94,7 +94,6 @@ namespace RiotDNS
 
                     }
                 }
-
             }
         }
     }

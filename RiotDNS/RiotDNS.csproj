@@ -123,7 +123,7 @@
     <Resource Include="Assets\Splash.png" />
     <Resource Include="Assets\twitter_default.png" />
     <Resource Include="Assets\twitter_hover.png" />
-    <Resource Include="Assets\wifi_icon.png" />
+    <Resource Include="Assets\dns_icon.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RiotDNS.Updater\RiotDNS.Updater.csproj">
