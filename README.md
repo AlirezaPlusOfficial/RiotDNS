@@ -61,7 +61,7 @@ v2.0.2.3 :
 <br>
 ✅ Added New DNS Server
 <br>
-✅ Freezing Application When Trying To Active A DNS Got Fixed
+✅ Freezing Application When Trying To Activate A DNS Got Fixed
 <br><br>
 v2.0.2.4 :
 <br>
