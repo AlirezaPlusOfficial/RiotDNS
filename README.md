@@ -66,6 +66,14 @@ v2.0.2.3 :
 v2.0.2.4 :
 <br>
 ✅ Crash Log Included
+<br><br>
+v2.0.2.5 :
+<br>
+✅ Basic Improvments
+<br><br>
+v2.0.2.6 :
+<br>
+✅ Fixed Some Minor Bugs
 # Known Issue's
 ⚠ Application Core : When you have multiple active adapters may app not work correctly.
 # ToDo List
