@@ -43,6 +43,13 @@ namespace RiotDNS
             appVersion = Assembly.GetExecutingAssembly().GetName().Version.ToString();
             return appVersion;
         }
+        public string GetAppName()
+        {
+            string appNameFromAssembly = Assembly.GetExecutingAssembly()
+                .GetCustomAttributes<AssemblyTitleAttribute>()
+                .FirstOrDefault()?.Title ?? "Unknown App";
+            return appNameFromAssembly;
+        }
 
         public void UpdateBuildType(Version currentVersion, Version newVersion)
         {

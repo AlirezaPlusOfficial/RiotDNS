@@ -18,7 +18,7 @@ using System.Security.Principal;
 using System.Management;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
-
+using AlirezaPlus;
 
 
 
@@ -67,6 +67,7 @@ namespace RiotDNS
 
             try
             {
+                UserTracker.Track(settings.GetRDVersion(), settings.GetAppName());
                 controller.LogWrite("APP STARTED v" + settings.GetRDVersion());
             }
             catch (Exception)
