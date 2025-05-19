@@ -7,12 +7,13 @@
 [![Alireza Plus](https://img.shields.io/badge/Alireza-Plus-e4181c.svg?labelColor=0000ff)](#)
 
 # RiotDNS
-RiotDNS - Change Your Windows DNS Easily , Find , Choose and Set , We're Ready!
+RiotDNS — Switch Your Windows DNS Fast & Easy!
+Find, Pick, Set — Done in Seconds!
 <br>
 
 Open Source Under MIT Noncommercial License.
 # IMPORTANT
-🔰 This project will get its own updates, but slowly, However, feel free to contribute!
+🔰 This project will receive updates, though slowly. However, feel free to contribute!
 <br>
 🔰 GoodLuck 
 # Changelog
@@ -20,70 +21,70 @@ v1.0.0.0 : <br>
 ✅ Official Release (Basic Version)!
 <br><br>
 v1.0.0.1 : <br>
-✅ Minor Bugs Fixed!
+✅ Minor bugs have been fixed!
 <br><br>
 v1.0.0.2 : <br>
-✅ Added Self-Updater
+✅ Added self-updater feature!
 <br><br>
 v1.0.0.3 : <br>
-✅ UI/UX Improved
+✅ UI/UX improvements implemented!
 <br><br>
 v2.0.0.0 : <br>
-✅ New Design Rebuilt With WPF
+✅ New design rebuilt using WPF!
 <br><br>
 v2.0.1.0 : <br>
-✅ The Codes Were Optimized 
+✅ Code optimized for better performance and readability!
 <br> 
-✅ Added Simple Logging System
+✅ Added a simple logging system for tracking events and errors!
 <br><br>
 v2.0.2.0 : <br>
-✅ Updater Bug Fixed 
+✅ Fixed a bug in the updater system!
 <br>
-✅ DNS Clear And Set Action Bug Fixed
+✅ Fixed bug in DNS clear and set action!
 <br><br>
 v2.0.2.1 :
 <br>
-✅ Added Simple Splash Screen
+✅ Added a simple splash screen!
 <br>
-✅ Fixed Minor Bugs
+✅ Fixed minor bugs!
 <br>
-✅ Application Code Optimized And That Means Speed Is Boosted Too
+✅ Application code optimized, resulting in improved speed and performance!
 <br>
-✅ From Now On When You Start DNS It Will Show Ping
+✅ Now, when you start DNS, the ping will be displayed!
 <br>
-✅ New Servers Added
+✅ New servers have been added!
 <br><br>
 v2.0.2.2 :
 <br>
-✅ Adjusment For Splash Screen And Icons
+✅ Adjustments made to splash screen and icons!
 <br><br>
 v2.0.2.3 :
 <br>
-✅ Added New DNS Server
+✅ Added a new DNS server!
 <br>
-✅ Freezing Application When Trying To Activate A DNS Got Fixed
+✅ Fixed application freezing issue when trying to activate a DNS!
 <br><br>
 v2.0.2.4 :
 <br>
-✅ Crash Log Included
+✅ Crash log feature included!
 <br><br>
 v2.0.2.5 :
 <br>
-✅ Basic Improvments
+✅ Basic improvements made!
 <br><br>
 v2.0.2.6 :
 <br>
-✅ Fixed Some Minor Bugs
+✅ Fixed some minor bugs!
 # Known Issue's
-⚠ Application Core : When you have multiple active adapters may app not work correctly.
+⚠ Application Core: The app may not work correctly if multiple network adapters are active.
 # ToDo List
-💢 Adding Custom Section To Add Your Custom DNS Servers
+💢 Add a custom section to let users add their own DNS servers.
 <br>
-💢 And So Much More :)
+💢 And much more :)
 # Builds And Download
 ![RiotDNS](Screenshots/SS1.png)
 <br>
-NOTE : ScreenShot Is Related To Version ( 2.0.0.0 )
+Note: Screenshot is related to version (2.0.0.0)
 | Operation System | Download Link                                                                      |
 | ------------ | -------------------------------------------------------------------------------------- |
 | Windows       | <a href="https://github.com/AlirezaPlusOfficial/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> |
