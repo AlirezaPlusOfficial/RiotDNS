@@ -75,6 +75,10 @@ v2.0.2.5 :
 v2.0.2.6 :
 <br>
 ✅ Fixed some minor bugs!
+<br><br>
+v2.0.2.7 :
+<br>
+✅ Library updates!
 # Known Issue's
 ⚠ Application Core: The app may not work correctly if multiple network adapters are active.
 # ToDo List
