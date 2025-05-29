@@ -1,7 +1,7 @@
-[![Made in Iran](https://img.shields.io/badge/made_in-iran-ffd700.svg?labelColor=0057b7)](https://github.com/AlirezaPlusOfficial)
-[![Build](https://img.shields.io/github/actions/workflow/status/AlirezaPlusOfficial/RiotDNS/main.yml?branch=master)](https://github.com/AlirezaPlusOfficial/RiotDNS/actions)
-[![Release](https://img.shields.io/github/release/AlirezaPlusOfficial/RiotDNS.svg)](https://github.com/AlirezaPlusOfficial/RiotDNS/releases)
-[![Downloads](https://img.shields.io/github/downloads/AlirezaPlusOfficial/RiotDNS/total.svg)](https://github.com/AlirezaPlusOfficial/RiotDNS/releases)
+[![Made in Iran](https://img.shields.io/badge/made_in-iran-ffd700.svg?labelColor=0057b7)](https://github.com/RealUnfazed)
+[![Build](https://img.shields.io/github/actions/workflow/status/RealUnfazed/RiotDNS/main.yml?branch=master)](https://github.com/RealUnfazed/RiotDNS/actions)
+[![Release](https://img.shields.io/github/release/RealUnfazed/RiotDNS.svg)](https://github.com/RealUnfazed/RiotDNS/releases)
+[![Downloads](https://img.shields.io/github/downloads/RealUnfazed/RiotDNS/total.svg)](https://github.com/RealUnfazed/RiotDNS/releases)
 [![Discord](https://img.shields.io/discord/796410664460877865?label=discord)](https://discord.gg/tUa4V9S3MF)
 [![Donate](https://img.shields.io/badge/donate-$$$-8a2be2.svg)](#)
 [![Alireza Plus](https://img.shields.io/badge/Alireza-Plus-e4181c.svg?labelColor=0000ff)](#)
@@ -91,4 +91,4 @@ v2.0.2.7 :
 Note: Screenshot is related to version (2.0.0.0)
 | Operation System | Download Link                                                                      |
 | ------------ | -------------------------------------------------------------------------------------- |
-| Windows       | <a href="https://github.com/AlirezaPlusOfficial/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> |
+| Windows       | <a href="https://github.com/RealUnfazed/RiotDNS/releases/download/main/RiotDNS_Compiled_Windows.zip">Download</a> |
